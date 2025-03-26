@@ -1,97 +1,36 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native E-Commerce Product Listing App
+# Overview
+This is a simple E-Commerce product listing app built using React Native. It displays products fetched from the FakeStore API with functionality for viewing details, adding to cart, and more. The app also includes features like a wishlist, search, and filter functionality.
 
-# Getting Started
+# Features
+Product Listing: Displays products with images, titles, and prices.
+Product Details Page: View full product descriptions and the option to add items to the cart.
+Cart Functionality: View items in the cart and the total cost.
+Wishlist: Add products to a wishlist for later viewing.
+Search & Filter: Search products by name and filter by category.
+Persist Cart Items: Store cart items using AsyncStorage.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+# Technologies Used
 
-## Step 1: Start Metro
+React Native for building the app.
+React Navigation for screen navigation.
+FakeStore API to fetch product data.
+AsyncStorage to persist cart data.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+# Installation
+git clone https://github.com/yourusername/e-commerce-app.git
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+# Navigate to the project directory:
+cd e-commerce-app
+# Install dependencies:
+npm install
+# Run the app:
+npx react-native run-android   # for Android
+npx react-native run-ios       # for iOS
 
-```sh
-# Using npm
-npm start
+<img width="241" alt="signup (1)" src="https://github.com/user-attachments/assets/78835def-377c-46e2-bc54-a6244a02c66a" />
+<img width="226" alt="cart" src="https://github.com/user-attachments/assets/6d8d8f68-24ce-4b00-89a8-e9e51b881e7f" />
+<img width="229" alt="details" src="https://github.com/user-attachments/assets/047400e9-390e-4875-92fc-a92ae80ab9f3" />
+<img width="231" alt="home" src="https://github.com/user-attachments/assets/8ee3bb93-7a41-4827-a258-d64c0c52e6cb" />
+<img width="227" alt="login (1)" src="https://github.com/user-attachments/assets/b05fb0e8-3cb4-42c8-bd1f-23ff549abaad" />
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
